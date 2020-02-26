@@ -34,8 +34,11 @@ docker run --name (containername) -d -p (CrossOriginPort-generally:4200):80 (Ang
 
 
 #To go in mysql running container
+
 docker exec -ti (ContainerID) bash
+
 and then...
+
 mysql -u(username) -p(password)
 
  
